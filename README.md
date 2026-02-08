@@ -1,0 +1,39 @@
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/btp-procurement-data-extractor)](https://api.reuse.software/info/github.com/SAP-samples/btp-procurement-data-extractor)
+
+# BTP Data Extractor App for Procurement
+Maintainer: Manoj Gali
+
+Welcome to the sample use case of extracting SAP Procurement data into a BTP application. This application retrieves SAP Ariba Cloud Services data through the standard APIs and captures the relevant data into a BTP database. The scenario is meant to provide an easy to access approach for procurement data.
+
+This repository provides the sample code for the [Extract SAP Ariba Cloud Services data through standard APIs](https://discovery-center.cloud.sap/missiondetail/4133/4366/) Mission in SAP Discovery Center.
+
+_This code is only one part of the mission, so please follow the tutorial before attempting to use this code._
+
+## Requirements
+Please see the pre-requisites and the required BTP services in the [Extract SAP Ariba Cloud Services data through standard APIs](https://discovery-center.cloud.sap/missiondetail/4133/4366/) Mission in SAP Discovery Center.
+
+## Deploy the App
+Simply run the following command to deploy the deployable file to your BTP Cloud Foundry environment.
+
+```
+npm run mta:deploy
+```
+
+## Known Issues
+No known issues.
+
+## How to obtain support
+Please create an issue in this repository if you find a bug or have questions about the content.
+
+For additional support, you may also [ask a question in SAP Community](https://answers.sap.com/questions/ask.html).
+
+## Contributing
+If you wish to contribute code, offer fixes or improvements, please send a pull request. Due to legal reasons, contributors will be asked to accept a DCO when they create the first pull request to this project. This happens in an automated fashion during the submission process. SAP uses [the standard DCO text of the Linux Foundation](https://developercertificate.org/).
+
+## License
+Copyright (c) 2022 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSE) file. Current maintenance and updates are managed by Manoj Gali.
+
+## About the Developer
+Manoj Gali is a Senior SAP CPI Consultant with over 5 years of professional experience in SAP integration technologies. Specializing in SAP CPI, PI/PO, and hybrid integration landscapes, Manoj has extensive expertise in designing and optimizing scalable integration solutions. His technical proficiency includes Groovy Scripting, XSLT, and User-Defined Functions (UDFs), ensuring secure and high-performance data exchange across complex enterprise environments.
+
+Email: manoj.gali695@gmail.com
